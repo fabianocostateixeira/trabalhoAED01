@@ -2,8 +2,10 @@
 
 int main(){
     int opcao;
+    float lado;
+    float ladoa, ladob;
     do{
-        float lado;
+        
         printf("\n*** MENU DE OPCOES ***\n");
         printf("\n1 - Calcular area do quadrado");
         printf("\n2 - Calcular a area do triangulo retangulo");
@@ -20,6 +22,11 @@ int main(){
             break;
         case 2:
             printf("\nCALCULO DA AREA DO TRIANGULO RETANGULO\n");
+            printf("\nDigite o valor do lado A do triangulo: ");
+            scanf("%f", &ladoa);
+            printf("\nDigite o valor do lado B do triangulo: ");    
+            scanf("%f", &ladob);
+            printf("\nA area do triangulo retangulo eh: %.2f\n", (ladoa * ladob) / 2);  
             break;
         case 3:
             printf("\nSAINDO DO PROGRAMA\n");
