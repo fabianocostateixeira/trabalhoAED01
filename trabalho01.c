@@ -27,7 +27,6 @@ int main(){
             printf("\nDigite o valor do lado B do triangulo: ");    
             scanf("%f", &ladob);
             printf("\nA area do triangulo retangulo eh: %.2f\n", (ladoa * ladob) / 2);  
-            break;
         case 3:
             printf("\nSAINDO DO PROGRAMA\n");
             break;
